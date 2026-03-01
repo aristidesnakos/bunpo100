@@ -2,12 +2,9 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useUser } from "@/context/user";
 import config from "@/config";
 
 const Header = () => {
-  const { profile } = useUser();
-
   return (
     <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -27,27 +24,18 @@ const Header = () => {
           <Link href="/" className="text-foreground hover:text-primary transition-colors">
             Home
           </Link>
-          <Link href="#pricing" className="text-foreground hover:text-primary transition-colors">
-            Pricing
+          <Link href="/grammar">
+            <Button variant="outline" size="sm">
+              Grammar
+            </Button>
           </Link>
-          {profile?.name ? (
-            <Link href="/settings">
-              <Button variant="outline" size="sm">
-                {profile.name}
-              </Button>
-            </Link>
-          ) : (
-            <Link href="/signin">
-              <Button variant="outline" size="sm">
-                Sign In
-              </Button>
-            </Link>
-          )}
         </nav>
 
-        <Button variant="outline" size="sm" className="md:hidden">
-          Menu
-        </Button>
+        <Link href="/grammar" className="md:hidden">
+          <Button variant="outline" size="sm">
+            Grammar
+          </Button>
+        </Link>
       </div>
     </header>
   );
