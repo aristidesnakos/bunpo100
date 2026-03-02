@@ -31,10 +31,10 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-4 text-foreground">
-            Are you ready to write fluently?
+            The 100 Grammar Patterns Behind Fluent Japanese.
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            Track, analyze, and grow your language skills through guided journaling.
+            Curated structures, contextual examples, and progress tracking — built for learners serious about real expression.
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
         >
-          No commitments. Just insights. Upgrade to a premium plan anytime.
+          Free forever. No sign-up required. Start learning now.
         </motion.p>
 
         {/* Desktop Layout - Hidden on mobile */}

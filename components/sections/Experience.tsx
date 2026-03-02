@@ -94,7 +94,7 @@ const Experience = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <h3 className="text-xl font-semibold mb-6 text-foreground">
-                Why Journaling <span className="text-primary">Succeeds</span> Where Apps Fail
+                Why Active Practice <span className="text-primary">Unlocks</span> Grammar Fluency
               </h3>
               <ul className="space-y-4 text-muted-foreground inline-block text-left">
                 <li className="flex items-center gap-3">
@@ -167,15 +167,15 @@ const Experience = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
           >
             <h3 className="text-xl font-bold mb-4 text-foreground">
-              Stop Memorizing. <span className="text-primary">Start Writing.</span>
+              Stop Reviewing. <span className="text-primary">Start Expressing.</span>
             </h3>
             <p className="text-base text-muted-foreground mb-6">
-              Transform your language learning through daily journaling—the method that builds 
-              authentic written expression, not just vocabulary lists.
+              Use the 100 essential grammar patterns as your foundation — then build fluency
+              through daily journaling practice that makes each structure natural and automatic.
             </p>
             <p className="text-sm text-muted-foreground">
-              <strong>Minimal AI guidance.</strong> Just enough to keep you writing, 
-              not so much that it replaces your voice.
+              <strong>Grammar reference meets daily practice.</strong> Learn the pattern, then use it —
+              until it stops feeling like grammar and starts feeling like you.
             </p>
         </motion.div>
       </div>

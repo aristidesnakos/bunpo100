@@ -5,28 +5,36 @@ const Footer = () => {
     <footer className="border-t border-border bg-background">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="flex items-center space-x-4">
-            <h2 className="text-xl font-bold text-primary">Llanai</h2>
-            <span className="text-sm text-muted-foreground">
+          <div className="flex flex-col items-center md:items-start space-y-1">
+            <div className="flex items-center space-x-3">
+              <h2 className="text-xl font-bold text-primary">Llanai</h2>
+              <span className="text-xs text-muted-foreground border border-border rounded px-2 py-0.5">
+                文法100
+              </span>
+            </div>
+            <p className="text-xs text-muted-foreground">
+              Japanese grammar for serious learners.
+            </p>
+            <span className="text-xs text-muted-foreground">
               © {new Date().getFullYear()} Llanai. All rights reserved.
             </span>
           </div>
-          
+
           <div className="flex items-center space-x-6">
-            <Link 
-              href="/tos" 
+            <Link
+              href="/tos"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               Terms
             </Link>
-            <Link 
-              href="/privacy-policy" 
+            <Link
+              href="/privacy-policy"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               Privacy
             </Link>
-            <Link 
-              href="mailto:ari@llanai.com" // Assuming contact email from config.ts
+            <Link
+              href="mailto:ari@llanai.com"
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               Contact

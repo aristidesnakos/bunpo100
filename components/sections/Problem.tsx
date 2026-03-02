@@ -2,19 +2,19 @@ import { Card } from "@/components/ui/card";
 
 const problems = [
   {
-    title: "Time Consuming",
-    description: "Spending hours on repetitive tasks that could be automated",
-    icon: "⏰",
+    title: "Rules Without Real Context",
+    description: "Textbooks define grammar patterns, but never show you how native speakers naturally reach for them in real sentences",
+    icon: "📖",
   },
   {
-    title: "Scaling Issues",
-    description: "Struggling to grow your business with limited resources",
-    icon: "📈",
+    title: "Passive Learning Plateau",
+    description: "Apps and flashcards build recognition — but when it's time to write or speak, the words and structures just won't come",
+    icon: "🧊",
   },
   {
-    title: "Complex Setup",
-    description: "Dealing with complicated configurations and integrations",
-    icon: "🔧",
+    title: "No Clear Path Forward",
+    description: "With hundreds of patterns to choose from, most learners don't know which ones actually matter for natural expression",
+    icon: "🗺️",
   },
 ];
 
@@ -24,10 +24,10 @@ export default function Problem() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
-            The Problem We Solve
+            Why Most Japanese Learners Stay Stuck
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We understand the challenges you face every day. Our solution addresses these pain points directly.
+            You&apos;re putting in the work. Here&apos;s why the results don&apos;t match — and what actually changes the trajectory.
           </p>
         </div>
 
@@ -43,30 +43,29 @@ export default function Problem() {
 
         <div className="bg-muted rounded-2xl p-12 text-center">
           <h3 className="text-3xl font-bold mb-4">
-            There&apos;s a Better Way
+            Grammar That Actually Builds Fluency
           </h3>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Our platform eliminates these obstacles, allowing you to focus on what truly matters - 
-            growing your business and delivering value to your customers.
+            bunpo100 curates the 100 patterns every fluent Japanese speaker relies on — with authentic examples that show real usage, not just definitions. Track exactly where you are. Know exactly where to go next.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-lg">
             <span className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              Save Time
+              Curated — the patterns that matter most
             </span>
             <span className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              Scale Effortlessly
+              Contextual — real examples, not just definitions
             </span>
             <span className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              Simple Setup
+              Trackable — mark progress, stay on course
             </span>
           </div>
         </div>
