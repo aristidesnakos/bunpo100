@@ -44,7 +44,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
         >
-          <h2 className="px-6 py-3 rounded-lg bg-indigo-200 text-foreground text-xl">
+          <h2 className="px-6 py-3 rounded-lg bg-accent/20 text-accent text-xl">
             {languages[currentIndex].name}
           </h2>  
           <Link href="/grammar">

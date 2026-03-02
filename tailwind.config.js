@@ -16,13 +16,17 @@ module.exports = {
   		}
   	},
   	fontFamily: {
-  		bangers: [
-  			'Bangers',
-  			'system-ui'
-  		],
-  		nunito: [
-  			'Nunito',
+  		montserrat: [
+  			'var(--font-montserrat)',
   			'sans-serif'
+  		],
+  		figtree: [
+  			'var(--font-figtree)',
+  			'sans-serif'
+  		],
+  		instrument: [
+  			'var(--font-instrument-serif)',
+  			'serif'
   		]
   	},
   	extend: {
